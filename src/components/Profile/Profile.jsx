@@ -25,7 +25,6 @@
 
 import React from "react";
 import "./Profile.css";
-import myImage from "C:/Users/hisha/OneDrive/Desktop/react project video/react-portfolio/src/my-image.HEIC";
 
 const Profile = () => {
     return (
@@ -38,7 +37,7 @@ const Profile = () => {
                 </p>
             </div>
             <div className="profile-img">
-                <img src={myImage} alt="Housam Tarrach"/>
+                <img src="./my-image.png" alt="Housam Tarrach"/>
             </div>
         </section>
     );
