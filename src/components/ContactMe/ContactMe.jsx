@@ -21,7 +21,7 @@ const ContactMe = () => {
           />
           <ContactInfoCard
             iconUrl="./linkedin.png"
-            link="https://linkedin.com/in/housam-aldeen-tarrach-3b7812189"
+            link="https://www.linkedin.com/in/housam-tarrach-3b7812189/"
           />
         </div>
       </section>
