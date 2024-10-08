@@ -25,6 +25,13 @@ const Navbar = () => {
                     </li>
 
                     <li>
+                        <a className="menu-item" 
+                           href="https://drive.google.com/file/d/1LTjnTrWFnBCHNVN56VfrU8w1s6WvOYcl/view?usp=drive_link"
+                           target="_blank" 
+                           rel="noopener noreferrer">Resume</a>
+                    </li>
+
+                    <li>
                         <a className="menu-item" href="#contact-me">Contact Me</a>
                     </li>
                     
