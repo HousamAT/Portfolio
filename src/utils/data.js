@@ -50,29 +50,35 @@ export const SKILLS = [
   
   export const PROJECTS = [
     {
+      title: "Expense Tracker Web Application",
+      language: "Python (Flask), JavaScript, MongoDB",
+      description: [
+        "Developed a full-stack expense tracking application using Flask for the backend and React for the frontend",
+        "Utilized MongoDB Atlas for database management",
+        "Integrated React Router for smooth navigation across the app's components, including login, sign-up, and dashboard",
+        "Implemented user authentication, transaction management, and real-time expense tracking features",
+      ],
+    },
+
+    {
       title: "Video Summarizer Using AI",
       language: "Python",
-      description: ["Given a YouTube link, or a video on the local device the program generates a summary of the video",
+      description: [
+        "Given a YouTube link, or a video on the local device the program generates a summary of the video",
         "Used the Whisper AI model to transcribe audio to text",
-        "Implemented API calls to the Groq AI model for generating text summaries from transcriptions", 
+        "Implemented API calls to the Groq AI model for generating text summaries from transcriptions",
         "Implemented recursive file searches and handling for audio files",
         "Utilized Python's os and shutil libraries for directory management, file creation, and clean-up operations",
       ],
     },
+
     {
-      title: "Flight Tracker",
-      language: "Python",
-      description: ["Real-time flight tracking application for visualizing aircraft positions on an interactive map"
-        ,"Utilized REST API to fetch real-time flight data from OpenSky Network"
-        ,"Managed and transformed data using pandas and numpy for plotting"
-        ,"Performed coordinate conversions from map geographical coordinates (WGS84) to Web Mercator."
-      ],
-    },
-    {
-      title: "Email APP",
+      title: "Survey Generator Application",
       language: "Java",
-      description: ["Developed a Java based application to automate the generation of company email addresses for new employees", 
-        "Designed a random password generator with customizable length",
-      "Used object-oriented principles by creating distinct classes and methods"],
+      description: [
+        "Developed a Java-based console application to create, save, and take surveys with various question types",
+        "Created core classes, applying encapsulation to manage survey data and ensure proper access control",
+        "Implemented getter and setter methods to manage and protect data access",
+      ],
     },
   ];
