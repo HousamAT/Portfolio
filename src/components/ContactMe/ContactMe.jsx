@@ -12,7 +12,8 @@ const ContactMe = () => {
           {/* ContactInfoCard for email */}
           <ContactInfoCard
             iconUrl="./email-icon.png" // Path to the email icon
-            email="hishamtarrash@gmail.com" // Email address to display
+            //email="hishamtarrash@gmail.com" // Email address to display
+            link="mailto:hishamtarrash@gmail.com"
           />
           {/* ContactInfoCard for GitHub profile */}
           <ContactInfoCard
